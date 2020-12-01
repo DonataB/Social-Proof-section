@@ -1,0 +1,101 @@
+:root{
+--VeryDarkMagenta: hsl(300, 43%, 22%);
+--SoftPink: hsl(333, 80%, 67%);
+--DarkGrayishMagenta: hsl(303, 10%, 53%);
+--LightGrayishMagenta: hsl(300, 24%, 96%);
+--White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0;
+    /* padding: 0; */
+}
+
+body{
+    /* background-color: green; */
+    font-family: 'Spartan', sans-serif;
+    font-family: 15px;
+    background-image: url("./images/bg-pattern-top-mobile.svg"), url("./images/bg-pattern-bottom-mobile.svg");
+    background-repeat: no-repeat no-repeat;
+    width: 100%;
+}
+
+.container{
+    width: 80%;
+    height: 90%;
+    margin: 25% auto;
+    text-align: center;
+    line-height: 1.25;
+}
+h1{
+    color: var(--VeryDarkMagenta);
+    width: 100%;
+    
+}
+p{
+    margin-top: 20px;
+    color: var(--DarkGrayishMagenta);
+    font-weight: 500;
+    
+}
+.rate1, .rate2, .rate3 {
+    background-color: var(--LightGrayishMagenta);
+    margin: 5% 0;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+}
+.rate1 img,
+.rate2 img,
+.rate3 img {
+  border-style: none;
+  max-width: 100%;
+  width: 5%;
+}
+.rate1 .stars, .rate2 .stars, .rate3 .stars{
+    display: block;
+    width: 400px;
+
+}
+.rate1 span, .rate2 span, .rate3 span{
+    font-size: 13px;
+    color: var(--VeryDarkMagenta);
+    font-weight: 700;
+}
+ .card{
+    background-color: var(--VeryDarkMagenta);
+    width: 70%;
+    margin: 5% auto;
+    padding: 5%;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+
+ }  
+
+ .card .card-header{
+    display: flex;
+    margin: 5%;
+}
+.card .card-header img {
+    border-radius: 100%;
+    height: auto;
+    margin-right: 20px;
+    width: 50px;
+}
+.card .card-header .person .name{
+    font-weight: 700;
+}
+.card .card-header .role{
+    color: var(--SoftPink); 
+    margin-top: 5px;
+}
+.card .opinion {
+    font-weight: 500;
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 10px;
+
+}
