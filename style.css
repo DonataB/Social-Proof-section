@@ -57,17 +57,8 @@ p {
 .rate1 img,
 .rate2 img,
 .rate3 img {
-    border-style: none;
     max-width: 100%;
-    width: 5%;
-}
-
-.rate1 .stars,
-.rate2 .stars,
-.rate3 .stars {
-    display: block;
-    width: 400px;
-
+    width: 15%;
 }
 
 .rate1 span,
@@ -154,6 +145,7 @@ p {
         margin-left: 180px;
         
     }
+    
     .rate2:nth-child(2){
         position: relative; left: 50px;
     }
